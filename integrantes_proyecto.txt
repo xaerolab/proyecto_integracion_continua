@@ -1,3 +1,11 @@
 Sergio Alberto Gamboa Diaz
+<<<<<<< HEAD
 Juan Pablo Santamaria Murillo
 Yesica Lorena Cantillo Godoy
+=======
+<<<<<<< HEAD
+Arnoldo Suarez Ardila
+=======
+Juan Pablo Santamaria Murillo
+>>>>>>> ef465fc14621b708e3410d4e432ce7f452a2fad7
+>>>>>>> 3ef858cb9cdd6c62d1d27837bc2ec5376f39b6a0
