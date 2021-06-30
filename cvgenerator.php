@@ -8,6 +8,19 @@ use Dompdf\Dompdf;
 use Dompdf\Options;
 
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+Sentry\init(['dsn' => 'https://a6d1e246d11c4903886843ceeb006ed4@o888768.ingest.sentry.io/5838436' ]);
+
+
+
+try {
+    $this->functionFailsForSure();
+} catch (\Throwable $exception) {
+    \Sentry\captureException($exception);
+}
+
+//declaracion de variables // captura de datos desde el formulario
 $nombres = $_POST['nombres'];
 $apellidos = $_POST['apellidos'];
 $correo = $_POST['correo'];
